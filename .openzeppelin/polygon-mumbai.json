@@ -1,0 +1,5482 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xC91E72e16e4F24F410cA9629d621c828721360FC",
+    "txHash": "0x7877b7e9219aa3028b4d9f6d564179425cb527af50be2290e65cb6ed7fd22f5c"
+  },
+  "proxies": [
+    {
+      "address": "0xa981Ec2642fe5B76E35b1a721c3d10FF23B4DF61",
+      "txHash": "0xcec002e1b4bc143b61e3c153042eb2bf924ab658348d2be40904454c1aa0c5cf",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xE3ff9D5a1482afE7DED7762224af2D58f8D19f9B",
+      "txHash": "0x6eeeb1aa76aa3ad5db48d9983b918d115df1309b8b9140e2b6dbaa2887ea7c31",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xb4F14f50C5141048684df46369Cca272Df172396",
+      "txHash": "0x78ca469de63c8b7276619715b4c16c26ca374b7b7179e7dfe99f6594dc283321",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xaf3344c99112e2a051962448E7eb4Ac4Ba7D8AE1",
+      "txHash": "0x7b678ab6fd51bd87c7f90dbec49a94d49d36890369fc1b61857db07bc6b2c568",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xf239987B244Dd9d98e3161Fa6321d5A6bF18C1C8",
+      "txHash": "0x0985342f3d91ea6556c486d89b973e908fd11c5c071afba2e17c288229f59ec1",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x1534eB5597E905D5D6697938200BB2e3C38f11a7",
+      "txHash": "0x131145574af85eb721425549212248513257e5b456c61ed2cd77b8944d50af48",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xA9D365BE0100985B33D3b036CA3555690e1FCf8B",
+      "txHash": "0xa7956984cd8e351247eb0c278cf3189eb43a737dc3a482433e982c28f882142c",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x9355B0fa61de3fF913460f3d6f5F98ca41c67925",
+      "txHash": "0x88bc47a7187437fc3577f8ba6b77867d339adb9c07bdf085a3b4090f198000c8",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x1614cA654eAbd303E94f5249Fb5Ff661D4B8A165",
+      "txHash": "0x3f3819b38ba221c11cb60bc8841243e23b1f38d19ed15f951560c5ea1e56cbc7",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xe3E4Db1AC46dDf76A354350E8d1F746F644D0D78",
+      "txHash": "0x39e3bf986af93cfc9b86b0f30d4eda3f1934be2b82a18c9bd54b39cf39beafd3",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xC77f4112525381A85fc25f02538196F016892f69",
+      "txHash": "0x197d472687177c50e0a669dcdfa80ea386ea75bb6ab21dae828f1b0f2b6887a7",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xE31F739F1F3DB5964A5501DC3a21b276B615A7D3",
+      "txHash": "0x54470a74f643e926e728ef8dddf826acf8b1b3fc18dfddc5dd8aa2d715040b77",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x16EEc298025e30F5BfBB33bDF427F8c423F604E9",
+      "txHash": "0x3b424371148632a936cf96c0cef48a2dd372c2214cd6e15eb0159cd5715bf1de",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xd094e6A90591e50DBf5db83Fb28ab4fD9d927D1E",
+      "txHash": "0xb686c988969a99622988427511e60e1b24f8bfa7f0df04ed873d1d329a64c0a5",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x9e0396a6C78AD5A3FF5BcBC8f041b5399D7378E5",
+      "txHash": "0x59c78fc195266dbb6d179886343e41f57800e66840a30aec41a63c7d160f0f89",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "263462d8651747a9975a3b6138448b160008c80511b1d6526bf51cd8a4d411ea": {
+      "address": "0x07D9ccf8210a89c58b2B693DA8FDE5093E256706",
+      "txHash": "0xe5e71e5334bdb4609a0eae18c3563cc835667dc553ab46b580d5f161ef961824",
+      "layout": {
+        "solcVersion": "0.8.7",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "randomizer",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_contract(IVestaRandomizer)2629",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:29"
+          },
+          {
+            "label": "vestaToken",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_contract(IERC20Callback)2609",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:30"
+          },
+          {
+            "label": "vestaTokenAddress",
+            "offset": 0,
+            "slot": "103",
+            "type": "t_address",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:31"
+          },
+          {
+            "label": "nonce",
+            "offset": 0,
+            "slot": "104",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:51"
+          },
+          {
+            "label": "colorName",
+            "offset": 0,
+            "slot": "105",
+            "type": "t_mapping(t_uint8,t_string_storage)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:52"
+          },
+          {
+            "label": "symbolName",
+            "offset": 0,
+            "slot": "106",
+            "type": "t_mapping(t_uint8,t_string_storage)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:53"
+          },
+          {
+            "label": "cardOwner",
+            "offset": 0,
+            "slot": "107",
+            "type": "t_mapping(t_uint256,t_address)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:54"
+          },
+          {
+            "label": "vestOwner",
+            "offset": 0,
+            "slot": "108",
+            "type": "t_mapping(t_uint256,t_address)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:55"
+          },
+          {
+            "label": "vestsByOwner",
+            "offset": 0,
+            "slot": "109",
+            "type": "t_mapping(t_address,t_array(t_uint256)dyn_storage)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:56"
+          },
+          {
+            "label": "unlockedClaimableToken",
+            "offset": 0,
+            "slot": "110",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:57"
+          },
+          {
+            "label": "staked",
+            "offset": 0,
+            "slot": "111",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:58"
+          },
+          {
+            "label": "_isValidSigner",
+            "offset": 0,
+            "slot": "112",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:59"
+          },
+          {
+            "label": "_signedUnlock",
+            "offset": 0,
+            "slot": "113",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:60"
+          },
+          {
+            "label": "signerAdmin",
+            "offset": 0,
+            "slot": "114",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:61"
+          },
+          {
+            "label": "_threshold",
+            "offset": 0,
+            "slot": "115",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:64"
+          },
+          {
+            "label": "signCount",
+            "offset": 0,
+            "slot": "116",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:65"
+          },
+          {
+            "label": "panicUnlock",
+            "offset": 0,
+            "slot": "117",
+            "type": "t_bool",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:66"
+          },
+          {
+            "label": "symbols",
+            "offset": 0,
+            "slot": "118",
+            "type": "t_array(t_uint8)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:67"
+          },
+          {
+            "label": "vestingIndex",
+            "offset": 0,
+            "slot": "119",
+            "type": "t_array(t_struct(Vesting)2670_storage)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:68"
+          },
+          {
+            "label": "cardIndex",
+            "offset": 0,
+            "slot": "120",
+            "type": "t_array(t_struct(Card)2661_storage)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:69"
+          },
+          {
+            "label": "saleIndex",
+            "offset": 0,
+            "slot": "121",
+            "type": "t_array(t_bool)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:70"
+          },
+          {
+            "label": "salePrice",
+            "offset": 0,
+            "slot": "122",
+            "type": "t_array(t_uint256)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:71"
+          },
+          {
+            "label": "blacklisted",
+            "offset": 0,
+            "slot": "123",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:72"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_bool)dyn_storage": {
+            "label": "bool[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(Card)2661_storage)dyn_storage": {
+            "label": "struct VestaCard.Card[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(Vesting)2670_storage)dyn_storage": {
+            "label": "struct VestaCard.Vesting[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint8)dyn_storage": {
+            "label": "uint8[]",
+            "numberOfBytes": "32"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(IERC20Callback)2609": {
+            "label": "contract IERC20Callback",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IVestaRandomizer)2629": {
+            "label": "contract IVestaRandomizer",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_array(t_uint256)dyn_storage)": {
+            "label": "mapping(address => uint256[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint8,t_string_storage)": {
+            "label": "mapping(uint8 => string)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Card)2661_storage": {
+            "label": "struct VestaCard.Card",
+            "members": [
+              {
+                "label": "id",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "color",
+                "type": "t_uint8",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "evolution",
+                "type": "t_uint8",
+                "offset": 1,
+                "slot": "1"
+              },
+              {
+                "label": "tier",
+                "type": "t_uint8",
+                "offset": 2,
+                "slot": "1"
+              },
+              {
+                "label": "symbol",
+                "type": "t_uint8",
+                "offset": 3,
+                "slot": "1"
+              },
+              {
+                "label": "cardPower",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "initialPower",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "created",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "banished",
+                "type": "t_bool",
+                "offset": 0,
+                "slot": "5"
+              }
+            ],
+            "numberOfBytes": "192"
+          },
+          "t_struct(Vesting)2670_storage": {
+            "label": "struct VestaCard.Vesting",
+            "members": [
+              {
+                "label": "id",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "start",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "amount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "released",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              }
+            ],
+            "numberOfBytes": "128"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "1f867b99f435adc1feb0a80002912a4e6148043efe6233160990d6d306050d09": {
+      "address": "0x1D0dB869B4DF2be7428370a7d2CD1792BBe6112b",
+      "txHash": "0x880bc870a1b9c1b785fa94bf8efef1df14424f97dab46a1098566371172dbef8",
+      "layout": {
+        "solcVersion": "0.8.7",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "randomizer",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_contract(IVestaRandomizer)2629",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:29"
+          },
+          {
+            "label": "vestaToken",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_contract(IERC20Callback)2609",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:30"
+          },
+          {
+            "label": "vestaTokenAddress",
+            "offset": 0,
+            "slot": "103",
+            "type": "t_address",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:31"
+          },
+          {
+            "label": "nonce",
+            "offset": 0,
+            "slot": "104",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:51"
+          },
+          {
+            "label": "colorName",
+            "offset": 0,
+            "slot": "105",
+            "type": "t_mapping(t_uint8,t_string_storage)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:52"
+          },
+          {
+            "label": "symbolName",
+            "offset": 0,
+            "slot": "106",
+            "type": "t_mapping(t_uint8,t_string_storage)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:53"
+          },
+          {
+            "label": "cardOwner",
+            "offset": 0,
+            "slot": "107",
+            "type": "t_mapping(t_uint256,t_address)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:54"
+          },
+          {
+            "label": "vestOwner",
+            "offset": 0,
+            "slot": "108",
+            "type": "t_mapping(t_uint256,t_address)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:55"
+          },
+          {
+            "label": "vestsByOwner",
+            "offset": 0,
+            "slot": "109",
+            "type": "t_mapping(t_address,t_array(t_uint256)dyn_storage)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:56"
+          },
+          {
+            "label": "unlockedClaimableToken",
+            "offset": 0,
+            "slot": "110",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:57"
+          },
+          {
+            "label": "staked",
+            "offset": 0,
+            "slot": "111",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:58"
+          },
+          {
+            "label": "_isValidSigner",
+            "offset": 0,
+            "slot": "112",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:59"
+          },
+          {
+            "label": "_signedUnlock",
+            "offset": 0,
+            "slot": "113",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:60"
+          },
+          {
+            "label": "signerAdmin",
+            "offset": 0,
+            "slot": "114",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:61"
+          },
+          {
+            "label": "_threshold",
+            "offset": 0,
+            "slot": "115",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:64"
+          },
+          {
+            "label": "signCount",
+            "offset": 0,
+            "slot": "116",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:65"
+          },
+          {
+            "label": "panicUnlock",
+            "offset": 0,
+            "slot": "117",
+            "type": "t_bool",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:66"
+          },
+          {
+            "label": "symbols",
+            "offset": 0,
+            "slot": "118",
+            "type": "t_array(t_uint8)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:67"
+          },
+          {
+            "label": "vestingIndex",
+            "offset": 0,
+            "slot": "119",
+            "type": "t_array(t_struct(Vesting)2670_storage)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:68"
+          },
+          {
+            "label": "cardIndex",
+            "offset": 0,
+            "slot": "120",
+            "type": "t_array(t_struct(Card)2661_storage)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:69"
+          },
+          {
+            "label": "saleIndex",
+            "offset": 0,
+            "slot": "121",
+            "type": "t_array(t_bool)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:70"
+          },
+          {
+            "label": "salePrice",
+            "offset": 0,
+            "slot": "122",
+            "type": "t_array(t_uint256)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:71"
+          },
+          {
+            "label": "blacklisted",
+            "offset": 0,
+            "slot": "123",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:72"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_bool)dyn_storage": {
+            "label": "bool[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(Card)2661_storage)dyn_storage": {
+            "label": "struct VestaCard.Card[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(Vesting)2670_storage)dyn_storage": {
+            "label": "struct VestaCard.Vesting[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint8)dyn_storage": {
+            "label": "uint8[]",
+            "numberOfBytes": "32"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(IERC20Callback)2609": {
+            "label": "contract IERC20Callback",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IVestaRandomizer)2629": {
+            "label": "contract IVestaRandomizer",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_array(t_uint256)dyn_storage)": {
+            "label": "mapping(address => uint256[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint8,t_string_storage)": {
+            "label": "mapping(uint8 => string)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Card)2661_storage": {
+            "label": "struct VestaCard.Card",
+            "members": [
+              {
+                "label": "id",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "color",
+                "type": "t_uint8",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "evolution",
+                "type": "t_uint8",
+                "offset": 1,
+                "slot": "1"
+              },
+              {
+                "label": "tier",
+                "type": "t_uint8",
+                "offset": 2,
+                "slot": "1"
+              },
+              {
+                "label": "symbol",
+                "type": "t_uint8",
+                "offset": 3,
+                "slot": "1"
+              },
+              {
+                "label": "cardPower",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "initialPower",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "created",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "banished",
+                "type": "t_bool",
+                "offset": 0,
+                "slot": "5"
+              }
+            ],
+            "numberOfBytes": "192"
+          },
+          "t_struct(Vesting)2670_storage": {
+            "label": "struct VestaCard.Vesting",
+            "members": [
+              {
+                "label": "id",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "start",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "amount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "released",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              }
+            ],
+            "numberOfBytes": "128"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "b1bdade8ff254db430b3a33f49e25f16d8b17d1d7fa82bb47033dd4ca0a4bc94": {
+      "address": "0x01E9619c741b33429F73D99f609E7a6cF0C4a71D",
+      "txHash": "0x0770b77cccf50192fc9a2adfdff8d6f661ba3d72b34dabef793e36fde7acf1b3",
+      "layout": {
+        "solcVersion": "0.8.7",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "randomizer",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_contract(IVestaRandomizer)2959",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:32"
+          },
+          {
+            "label": "vestaToken",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_contract(IERC20Callback)2939",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:33"
+          },
+          {
+            "label": "vestaTokenAddress",
+            "offset": 0,
+            "slot": "103",
+            "type": "t_address",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:34"
+          },
+          {
+            "label": "nonce",
+            "offset": 0,
+            "slot": "104",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:54"
+          },
+          {
+            "label": "cardOwner",
+            "offset": 0,
+            "slot": "105",
+            "type": "t_mapping(t_uint256,t_address)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:55"
+          },
+          {
+            "label": "vestOwner",
+            "offset": 0,
+            "slot": "106",
+            "type": "t_mapping(t_uint256,t_address)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:56"
+          },
+          {
+            "label": "vestsByOwner",
+            "offset": 0,
+            "slot": "107",
+            "type": "t_mapping(t_address,t_array(t_uint256)dyn_storage)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:57"
+          },
+          {
+            "label": "unlockedClaimableToken",
+            "offset": 0,
+            "slot": "108",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:58"
+          },
+          {
+            "label": "staked",
+            "offset": 0,
+            "slot": "109",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:59"
+          },
+          {
+            "label": "_isValidSigner",
+            "offset": 0,
+            "slot": "110",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:60"
+          },
+          {
+            "label": "_signedUnlock",
+            "offset": 0,
+            "slot": "111",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:61"
+          },
+          {
+            "label": "signerAdmin",
+            "offset": 0,
+            "slot": "112",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:62"
+          },
+          {
+            "label": "_threshold",
+            "offset": 0,
+            "slot": "113",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:65"
+          },
+          {
+            "label": "signCount",
+            "offset": 0,
+            "slot": "114",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:66"
+          },
+          {
+            "label": "panicUnlock",
+            "offset": 0,
+            "slot": "115",
+            "type": "t_bool",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:67"
+          },
+          {
+            "label": "symbols",
+            "offset": 0,
+            "slot": "116",
+            "type": "t_array(t_uint8)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:68"
+          },
+          {
+            "label": "vestingIndex",
+            "offset": 0,
+            "slot": "117",
+            "type": "t_array(t_struct(Vesting)3000_storage)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:69"
+          },
+          {
+            "label": "cardIndex",
+            "offset": 0,
+            "slot": "118",
+            "type": "t_array(t_struct(Card)2991_storage)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:70"
+          },
+          {
+            "label": "saleIndex",
+            "offset": 0,
+            "slot": "119",
+            "type": "t_array(t_bool)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:71"
+          },
+          {
+            "label": "salePrice",
+            "offset": 0,
+            "slot": "120",
+            "type": "t_array(t_uint256)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:72"
+          },
+          {
+            "label": "blacklisted",
+            "offset": 0,
+            "slot": "121",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:73"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_bool)dyn_storage": {
+            "label": "bool[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(Card)2991_storage)dyn_storage": {
+            "label": "struct VestaCard.Card[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(Vesting)3000_storage)dyn_storage": {
+            "label": "struct VestaCard.Vesting[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint8)dyn_storage": {
+            "label": "uint8[]",
+            "numberOfBytes": "32"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(IERC20Callback)2939": {
+            "label": "contract IERC20Callback",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IVestaRandomizer)2959": {
+            "label": "contract IVestaRandomizer",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_array(t_uint256)dyn_storage)": {
+            "label": "mapping(address => uint256[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Card)2991_storage": {
+            "label": "struct VestaCard.Card",
+            "members": [
+              {
+                "label": "id",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "color",
+                "type": "t_uint8",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "evolution",
+                "type": "t_uint8",
+                "offset": 1,
+                "slot": "1"
+              },
+              {
+                "label": "tier",
+                "type": "t_uint8",
+                "offset": 2,
+                "slot": "1"
+              },
+              {
+                "label": "symbol",
+                "type": "t_uint8",
+                "offset": 3,
+                "slot": "1"
+              },
+              {
+                "label": "cardPower",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "initialPower",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "created",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "banished",
+                "type": "t_bool",
+                "offset": 0,
+                "slot": "5"
+              }
+            ],
+            "numberOfBytes": "192"
+          },
+          "t_struct(Vesting)3000_storage": {
+            "label": "struct VestaCard.Vesting",
+            "members": [
+              {
+                "label": "id",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "start",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "amount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "released",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              }
+            ],
+            "numberOfBytes": "128"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "dd003b7f1707e064e40a6d8288c39fd992a4422160caf520bd4b986d7fb60b39": {
+      "address": "0xD2e2eb38D644f1873FDE4c4079545e309Ff49E76",
+      "txHash": "0xf6e50e0d0efb74e9e1abf40e71940abe125f3c94d521f3aa7b11391b41344d25",
+      "layout": {
+        "solcVersion": "0.8.7",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "randomizer",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_contract(IVestaRandomizer)2959",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:32"
+          },
+          {
+            "label": "vestaToken",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_contract(IERC20Callback)2939",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:33"
+          },
+          {
+            "label": "vestaTokenAddress",
+            "offset": 0,
+            "slot": "103",
+            "type": "t_address",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:34"
+          },
+          {
+            "label": "nonce",
+            "offset": 0,
+            "slot": "104",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:54"
+          },
+          {
+            "label": "cardOwner",
+            "offset": 0,
+            "slot": "105",
+            "type": "t_mapping(t_uint256,t_address)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:55"
+          },
+          {
+            "label": "vestOwner",
+            "offset": 0,
+            "slot": "106",
+            "type": "t_mapping(t_uint256,t_address)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:56"
+          },
+          {
+            "label": "vestsByOwner",
+            "offset": 0,
+            "slot": "107",
+            "type": "t_mapping(t_address,t_array(t_uint256)dyn_storage)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:57"
+          },
+          {
+            "label": "unlockedClaimableToken",
+            "offset": 0,
+            "slot": "108",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:58"
+          },
+          {
+            "label": "staked",
+            "offset": 0,
+            "slot": "109",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:59"
+          },
+          {
+            "label": "_isValidSigner",
+            "offset": 0,
+            "slot": "110",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:60"
+          },
+          {
+            "label": "_signedUnlock",
+            "offset": 0,
+            "slot": "111",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:61"
+          },
+          {
+            "label": "signerAdmin",
+            "offset": 0,
+            "slot": "112",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:62"
+          },
+          {
+            "label": "_threshold",
+            "offset": 0,
+            "slot": "113",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:65"
+          },
+          {
+            "label": "signCount",
+            "offset": 0,
+            "slot": "114",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:66"
+          },
+          {
+            "label": "panicUnlock",
+            "offset": 0,
+            "slot": "115",
+            "type": "t_bool",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:67"
+          },
+          {
+            "label": "symbols",
+            "offset": 0,
+            "slot": "116",
+            "type": "t_array(t_uint8)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:68"
+          },
+          {
+            "label": "vestingIndex",
+            "offset": 0,
+            "slot": "117",
+            "type": "t_array(t_struct(Vesting)3000_storage)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:69"
+          },
+          {
+            "label": "cardIndex",
+            "offset": 0,
+            "slot": "118",
+            "type": "t_array(t_struct(Card)2991_storage)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:70"
+          },
+          {
+            "label": "saleIndex",
+            "offset": 0,
+            "slot": "119",
+            "type": "t_array(t_bool)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:71"
+          },
+          {
+            "label": "salePrice",
+            "offset": 0,
+            "slot": "120",
+            "type": "t_array(t_uint256)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:72"
+          },
+          {
+            "label": "blacklisted",
+            "offset": 0,
+            "slot": "121",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:73"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_bool)dyn_storage": {
+            "label": "bool[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(Card)2991_storage)dyn_storage": {
+            "label": "struct VestaCard.Card[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(Vesting)3000_storage)dyn_storage": {
+            "label": "struct VestaCard.Vesting[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint8)dyn_storage": {
+            "label": "uint8[]",
+            "numberOfBytes": "32"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(IERC20Callback)2939": {
+            "label": "contract IERC20Callback",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IVestaRandomizer)2959": {
+            "label": "contract IVestaRandomizer",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_array(t_uint256)dyn_storage)": {
+            "label": "mapping(address => uint256[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Card)2991_storage": {
+            "label": "struct VestaCard.Card",
+            "members": [
+              {
+                "label": "id",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "color",
+                "type": "t_uint8",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "evolution",
+                "type": "t_uint8",
+                "offset": 1,
+                "slot": "1"
+              },
+              {
+                "label": "tier",
+                "type": "t_uint8",
+                "offset": 2,
+                "slot": "1"
+              },
+              {
+                "label": "symbol",
+                "type": "t_uint8",
+                "offset": 3,
+                "slot": "1"
+              },
+              {
+                "label": "cardPower",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "initialPower",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "created",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "banished",
+                "type": "t_bool",
+                "offset": 0,
+                "slot": "5"
+              }
+            ],
+            "numberOfBytes": "192"
+          },
+          "t_struct(Vesting)3000_storage": {
+            "label": "struct VestaCard.Vesting",
+            "members": [
+              {
+                "label": "id",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "start",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "amount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "released",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              }
+            ],
+            "numberOfBytes": "128"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "abbb213c298cf69c03f511c188bfac22da142ea13f5b63ca19317bcfbd1bdd70": {
+      "address": "0x865Df7b1e4fAdf60D5ba9113f59630B910829afE",
+      "txHash": "0xe509fae9322aa7ec0e63023c837ce584e20a29f950d19802e5988795505d7472",
+      "layout": {
+        "solcVersion": "0.8.7",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "randomizer",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_contract(IVestaRandomizer)3650",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:33"
+          },
+          {
+            "label": "vestaToken",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_contract(IERC20Callback)3630",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:34"
+          },
+          {
+            "label": "vestaTokenAddress",
+            "offset": 0,
+            "slot": "103",
+            "type": "t_address",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:35"
+          },
+          {
+            "label": "nonce",
+            "offset": 0,
+            "slot": "104",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:55"
+          },
+          {
+            "label": "cardOwner",
+            "offset": 0,
+            "slot": "105",
+            "type": "t_mapping(t_uint256,t_address)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:56"
+          },
+          {
+            "label": "vestOwner",
+            "offset": 0,
+            "slot": "106",
+            "type": "t_mapping(t_uint256,t_address)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:57"
+          },
+          {
+            "label": "vestsByOwner",
+            "offset": 0,
+            "slot": "107",
+            "type": "t_mapping(t_address,t_array(t_uint256)dyn_storage)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:58"
+          },
+          {
+            "label": "unlockedClaimableToken",
+            "offset": 0,
+            "slot": "108",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:59"
+          },
+          {
+            "label": "staked",
+            "offset": 0,
+            "slot": "109",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:60"
+          },
+          {
+            "label": "_isValidSigner",
+            "offset": 0,
+            "slot": "110",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:61"
+          },
+          {
+            "label": "_signedUnlock",
+            "offset": 0,
+            "slot": "111",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:62"
+          },
+          {
+            "label": "signerAdmin",
+            "offset": 0,
+            "slot": "112",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:63"
+          },
+          {
+            "label": "_threshold",
+            "offset": 0,
+            "slot": "113",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:66"
+          },
+          {
+            "label": "signCount",
+            "offset": 0,
+            "slot": "114",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:67"
+          },
+          {
+            "label": "panicUnlock",
+            "offset": 0,
+            "slot": "115",
+            "type": "t_bool",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:68"
+          },
+          {
+            "label": "symbols",
+            "offset": 0,
+            "slot": "116",
+            "type": "t_array(t_uint8)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:69"
+          },
+          {
+            "label": "vestingIndex",
+            "offset": 0,
+            "slot": "117",
+            "type": "t_array(t_struct(Vesting)3691_storage)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:70"
+          },
+          {
+            "label": "cardIndex",
+            "offset": 0,
+            "slot": "118",
+            "type": "t_array(t_struct(Card)3682_storage)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:71"
+          },
+          {
+            "label": "saleIndex",
+            "offset": 0,
+            "slot": "119",
+            "type": "t_array(t_bool)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:72"
+          },
+          {
+            "label": "salePrice",
+            "offset": 0,
+            "slot": "120",
+            "type": "t_array(t_uint256)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:73"
+          },
+          {
+            "label": "blacklisted",
+            "offset": 0,
+            "slot": "121",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:74"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_bool)dyn_storage": {
+            "label": "bool[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(Card)3682_storage)dyn_storage": {
+            "label": "struct VestaCard.Card[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(Vesting)3691_storage)dyn_storage": {
+            "label": "struct VestaCard.Vesting[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint8)dyn_storage": {
+            "label": "uint8[]",
+            "numberOfBytes": "32"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(IERC20Callback)3630": {
+            "label": "contract IERC20Callback",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IVestaRandomizer)3650": {
+            "label": "contract IVestaRandomizer",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_array(t_uint256)dyn_storage)": {
+            "label": "mapping(address => uint256[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Card)3682_storage": {
+            "label": "struct VestaCard.Card",
+            "members": [
+              {
+                "label": "id",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "color",
+                "type": "t_uint8",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "evolution",
+                "type": "t_uint8",
+                "offset": 1,
+                "slot": "1"
+              },
+              {
+                "label": "tier",
+                "type": "t_uint8",
+                "offset": 2,
+                "slot": "1"
+              },
+              {
+                "label": "symbol",
+                "type": "t_uint8",
+                "offset": 3,
+                "slot": "1"
+              },
+              {
+                "label": "cardPower",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "initialPower",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "created",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "banished",
+                "type": "t_bool",
+                "offset": 0,
+                "slot": "5"
+              }
+            ],
+            "numberOfBytes": "192"
+          },
+          "t_struct(Vesting)3691_storage": {
+            "label": "struct VestaCard.Vesting",
+            "members": [
+              {
+                "label": "id",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "start",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "amount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "released",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              }
+            ],
+            "numberOfBytes": "128"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "b767fcc2eafc324d4192a97d95be0e49c3db106228add3c9a86c686d9f409fcd": {
+      "address": "0xaC22f159C1F5B48727d5EDCFC8C8BcDb2Ba92808",
+      "txHash": "0xd060f04672b53ae6ae074c02a30e7fdb533224c5753fce257a3dfa1de700b979",
+      "layout": {
+        "solcVersion": "0.8.7",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "randomizer",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_contract(IVestaRandomizer)3650",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:33"
+          },
+          {
+            "label": "vestaToken",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_contract(IERC20Callback)3630",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:34"
+          },
+          {
+            "label": "vestaTokenAddress",
+            "offset": 0,
+            "slot": "103",
+            "type": "t_address",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:35"
+          },
+          {
+            "label": "nonce",
+            "offset": 0,
+            "slot": "104",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:55"
+          },
+          {
+            "label": "cardOwner",
+            "offset": 0,
+            "slot": "105",
+            "type": "t_mapping(t_uint256,t_address)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:56"
+          },
+          {
+            "label": "vestOwner",
+            "offset": 0,
+            "slot": "106",
+            "type": "t_mapping(t_uint256,t_address)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:57"
+          },
+          {
+            "label": "vestsByOwner",
+            "offset": 0,
+            "slot": "107",
+            "type": "t_mapping(t_address,t_array(t_uint256)dyn_storage)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:58"
+          },
+          {
+            "label": "unlockedClaimableToken",
+            "offset": 0,
+            "slot": "108",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:59"
+          },
+          {
+            "label": "staked",
+            "offset": 0,
+            "slot": "109",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:60"
+          },
+          {
+            "label": "_isValidSigner",
+            "offset": 0,
+            "slot": "110",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:61"
+          },
+          {
+            "label": "_signedUnlock",
+            "offset": 0,
+            "slot": "111",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:62"
+          },
+          {
+            "label": "signerAdmin",
+            "offset": 0,
+            "slot": "112",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:63"
+          },
+          {
+            "label": "_threshold",
+            "offset": 0,
+            "slot": "113",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:66"
+          },
+          {
+            "label": "signCount",
+            "offset": 0,
+            "slot": "114",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:67"
+          },
+          {
+            "label": "panicUnlock",
+            "offset": 0,
+            "slot": "115",
+            "type": "t_bool",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:68"
+          },
+          {
+            "label": "symbols",
+            "offset": 0,
+            "slot": "116",
+            "type": "t_array(t_uint8)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:69"
+          },
+          {
+            "label": "vestingIndex",
+            "offset": 0,
+            "slot": "117",
+            "type": "t_array(t_struct(Vesting)3691_storage)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:70"
+          },
+          {
+            "label": "cardIndex",
+            "offset": 0,
+            "slot": "118",
+            "type": "t_array(t_struct(Card)3682_storage)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:71"
+          },
+          {
+            "label": "saleIndex",
+            "offset": 0,
+            "slot": "119",
+            "type": "t_array(t_bool)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:72"
+          },
+          {
+            "label": "salePrice",
+            "offset": 0,
+            "slot": "120",
+            "type": "t_array(t_uint256)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:73"
+          },
+          {
+            "label": "blacklisted",
+            "offset": 0,
+            "slot": "121",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:74"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_bool)dyn_storage": {
+            "label": "bool[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(Card)3682_storage)dyn_storage": {
+            "label": "struct VestaCard.Card[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(Vesting)3691_storage)dyn_storage": {
+            "label": "struct VestaCard.Vesting[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint8)dyn_storage": {
+            "label": "uint8[]",
+            "numberOfBytes": "32"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(IERC20Callback)3630": {
+            "label": "contract IERC20Callback",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IVestaRandomizer)3650": {
+            "label": "contract IVestaRandomizer",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_array(t_uint256)dyn_storage)": {
+            "label": "mapping(address => uint256[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Card)3682_storage": {
+            "label": "struct VestaCard.Card",
+            "members": [
+              {
+                "label": "id",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "color",
+                "type": "t_uint8",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "evolution",
+                "type": "t_uint8",
+                "offset": 1,
+                "slot": "1"
+              },
+              {
+                "label": "tier",
+                "type": "t_uint8",
+                "offset": 2,
+                "slot": "1"
+              },
+              {
+                "label": "symbol",
+                "type": "t_uint8",
+                "offset": 3,
+                "slot": "1"
+              },
+              {
+                "label": "cardPower",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "initialPower",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "created",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "banished",
+                "type": "t_bool",
+                "offset": 0,
+                "slot": "5"
+              }
+            ],
+            "numberOfBytes": "192"
+          },
+          "t_struct(Vesting)3691_storage": {
+            "label": "struct VestaCard.Vesting",
+            "members": [
+              {
+                "label": "id",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "start",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "amount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "released",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              }
+            ],
+            "numberOfBytes": "128"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "4a57e025d6ba8513e61ed7ea5e30c04eaf963574b8a47bcd427ff60fb3a12ad1": {
+      "address": "0x2315d3778b86bC4352313C1B33dd092dBb596793",
+      "txHash": "0x2080f87dd34419f46a2442793171e5c1114c409d4eed42c2d68dfb51f10f4414",
+      "layout": {
+        "solcVersion": "0.8.7",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "randomizer",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_contract(IVestaRandomizer)3650",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:33"
+          },
+          {
+            "label": "vestaToken",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_contract(IERC20Callback)3630",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:34"
+          },
+          {
+            "label": "vestaTokenAddress",
+            "offset": 0,
+            "slot": "103",
+            "type": "t_address",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:35"
+          },
+          {
+            "label": "nonce",
+            "offset": 0,
+            "slot": "104",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:55"
+          },
+          {
+            "label": "cardOwner",
+            "offset": 0,
+            "slot": "105",
+            "type": "t_mapping(t_uint256,t_address)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:56"
+          },
+          {
+            "label": "vestOwner",
+            "offset": 0,
+            "slot": "106",
+            "type": "t_mapping(t_uint256,t_address)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:57"
+          },
+          {
+            "label": "vestsByOwner",
+            "offset": 0,
+            "slot": "107",
+            "type": "t_mapping(t_address,t_array(t_uint256)dyn_storage)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:58"
+          },
+          {
+            "label": "unlockedClaimableToken",
+            "offset": 0,
+            "slot": "108",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:59"
+          },
+          {
+            "label": "staked",
+            "offset": 0,
+            "slot": "109",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:60"
+          },
+          {
+            "label": "_isValidSigner",
+            "offset": 0,
+            "slot": "110",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:61"
+          },
+          {
+            "label": "_signedUnlock",
+            "offset": 0,
+            "slot": "111",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:62"
+          },
+          {
+            "label": "signerAdmin",
+            "offset": 0,
+            "slot": "112",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:63"
+          },
+          {
+            "label": "_threshold",
+            "offset": 0,
+            "slot": "113",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:66"
+          },
+          {
+            "label": "signCount",
+            "offset": 0,
+            "slot": "114",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:67"
+          },
+          {
+            "label": "panicUnlock",
+            "offset": 0,
+            "slot": "115",
+            "type": "t_bool",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:68"
+          },
+          {
+            "label": "symbols",
+            "offset": 0,
+            "slot": "116",
+            "type": "t_array(t_uint8)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:69"
+          },
+          {
+            "label": "vestingIndex",
+            "offset": 0,
+            "slot": "117",
+            "type": "t_array(t_struct(Vesting)3691_storage)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:70"
+          },
+          {
+            "label": "cardIndex",
+            "offset": 0,
+            "slot": "118",
+            "type": "t_array(t_struct(Card)3682_storage)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:71"
+          },
+          {
+            "label": "saleIndex",
+            "offset": 0,
+            "slot": "119",
+            "type": "t_array(t_bool)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:72"
+          },
+          {
+            "label": "salePrice",
+            "offset": 0,
+            "slot": "120",
+            "type": "t_array(t_uint256)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:73"
+          },
+          {
+            "label": "blacklisted",
+            "offset": 0,
+            "slot": "121",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:74"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_bool)dyn_storage": {
+            "label": "bool[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(Card)3682_storage)dyn_storage": {
+            "label": "struct VestaCard.Card[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(Vesting)3691_storage)dyn_storage": {
+            "label": "struct VestaCard.Vesting[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint8)dyn_storage": {
+            "label": "uint8[]",
+            "numberOfBytes": "32"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(IERC20Callback)3630": {
+            "label": "contract IERC20Callback",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IVestaRandomizer)3650": {
+            "label": "contract IVestaRandomizer",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_array(t_uint256)dyn_storage)": {
+            "label": "mapping(address => uint256[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Card)3682_storage": {
+            "label": "struct VestaCard.Card",
+            "members": [
+              {
+                "label": "id",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "color",
+                "type": "t_uint8",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "evolution",
+                "type": "t_uint8",
+                "offset": 1,
+                "slot": "1"
+              },
+              {
+                "label": "tier",
+                "type": "t_uint8",
+                "offset": 2,
+                "slot": "1"
+              },
+              {
+                "label": "symbol",
+                "type": "t_uint8",
+                "offset": 3,
+                "slot": "1"
+              },
+              {
+                "label": "cardPower",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "initialPower",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "created",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "banished",
+                "type": "t_bool",
+                "offset": 0,
+                "slot": "5"
+              }
+            ],
+            "numberOfBytes": "192"
+          },
+          "t_struct(Vesting)3691_storage": {
+            "label": "struct VestaCard.Vesting",
+            "members": [
+              {
+                "label": "id",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "start",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "amount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "released",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              }
+            ],
+            "numberOfBytes": "128"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "d811d5c8069d1f7930dee02dbe2d4b590acf4e0fc6ba9070ffc6b57e4c80d566": {
+      "address": "0xEf76125951882e6B54904031f0Bde7dA7eaAa534",
+      "txHash": "0xdc23a30ee29225720f6af1d943b38b0c8181d6a3869469e098b92a2fca37dec5",
+      "layout": {
+        "solcVersion": "0.8.7",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "randomizer",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_contract(IVestaRandomizer)3650",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:33"
+          },
+          {
+            "label": "vestaToken",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_contract(IERC20Callback)3630",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:34"
+          },
+          {
+            "label": "vestaTokenAddress",
+            "offset": 0,
+            "slot": "103",
+            "type": "t_address",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:35"
+          },
+          {
+            "label": "nonce",
+            "offset": 0,
+            "slot": "104",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:55"
+          },
+          {
+            "label": "cardOwner",
+            "offset": 0,
+            "slot": "105",
+            "type": "t_mapping(t_uint256,t_address)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:56"
+          },
+          {
+            "label": "vestOwner",
+            "offset": 0,
+            "slot": "106",
+            "type": "t_mapping(t_uint256,t_address)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:57"
+          },
+          {
+            "label": "vestsByOwner",
+            "offset": 0,
+            "slot": "107",
+            "type": "t_mapping(t_address,t_array(t_uint256)dyn_storage)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:58"
+          },
+          {
+            "label": "unlockedClaimableToken",
+            "offset": 0,
+            "slot": "108",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:59"
+          },
+          {
+            "label": "staked",
+            "offset": 0,
+            "slot": "109",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:60"
+          },
+          {
+            "label": "_isValidSigner",
+            "offset": 0,
+            "slot": "110",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:61"
+          },
+          {
+            "label": "_signedUnlock",
+            "offset": 0,
+            "slot": "111",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:62"
+          },
+          {
+            "label": "signerAdmin",
+            "offset": 0,
+            "slot": "112",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:63"
+          },
+          {
+            "label": "_threshold",
+            "offset": 0,
+            "slot": "113",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:66"
+          },
+          {
+            "label": "signCount",
+            "offset": 0,
+            "slot": "114",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:67"
+          },
+          {
+            "label": "panicUnlock",
+            "offset": 0,
+            "slot": "115",
+            "type": "t_bool",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:68"
+          },
+          {
+            "label": "symbols",
+            "offset": 0,
+            "slot": "116",
+            "type": "t_array(t_uint8)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:69"
+          },
+          {
+            "label": "vestingIndex",
+            "offset": 0,
+            "slot": "117",
+            "type": "t_array(t_struct(Vesting)3691_storage)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:70"
+          },
+          {
+            "label": "cardIndex",
+            "offset": 0,
+            "slot": "118",
+            "type": "t_array(t_struct(Card)3682_storage)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:71"
+          },
+          {
+            "label": "saleIndex",
+            "offset": 0,
+            "slot": "119",
+            "type": "t_array(t_bool)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:72"
+          },
+          {
+            "label": "salePrice",
+            "offset": 0,
+            "slot": "120",
+            "type": "t_array(t_uint256)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:73"
+          },
+          {
+            "label": "blacklisted",
+            "offset": 0,
+            "slot": "121",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:74"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_bool)dyn_storage": {
+            "label": "bool[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(Card)3682_storage)dyn_storage": {
+            "label": "struct VestaCard.Card[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(Vesting)3691_storage)dyn_storage": {
+            "label": "struct VestaCard.Vesting[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint8)dyn_storage": {
+            "label": "uint8[]",
+            "numberOfBytes": "32"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(IERC20Callback)3630": {
+            "label": "contract IERC20Callback",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IVestaRandomizer)3650": {
+            "label": "contract IVestaRandomizer",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_array(t_uint256)dyn_storage)": {
+            "label": "mapping(address => uint256[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Card)3682_storage": {
+            "label": "struct VestaCard.Card",
+            "members": [
+              {
+                "label": "id",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "color",
+                "type": "t_uint8",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "evolution",
+                "type": "t_uint8",
+                "offset": 1,
+                "slot": "1"
+              },
+              {
+                "label": "tier",
+                "type": "t_uint8",
+                "offset": 2,
+                "slot": "1"
+              },
+              {
+                "label": "symbol",
+                "type": "t_uint8",
+                "offset": 3,
+                "slot": "1"
+              },
+              {
+                "label": "cardPower",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "initialPower",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "created",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "banished",
+                "type": "t_bool",
+                "offset": 0,
+                "slot": "5"
+              }
+            ],
+            "numberOfBytes": "192"
+          },
+          "t_struct(Vesting)3691_storage": {
+            "label": "struct VestaCard.Vesting",
+            "members": [
+              {
+                "label": "id",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "start",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "amount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "released",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              }
+            ],
+            "numberOfBytes": "128"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "ddd475ed9c91968c1911d93c6f68f14d1b74ce2bb3702004a8de296d5bcf8ac3": {
+      "address": "0xA98AF981257155dcD5FBb51C2C600956052518Fa",
+      "txHash": "0xa068152dc3412025009d11c4b41a1867fc87d38523798e6f2c6fae8f255bc537",
+      "layout": {
+        "solcVersion": "0.8.7",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "randomizer",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_contract(IVestaRandomizer)3650",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:33"
+          },
+          {
+            "label": "vestaToken",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_contract(IERC20Callback)3630",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:34"
+          },
+          {
+            "label": "vestaTokenAddress",
+            "offset": 0,
+            "slot": "103",
+            "type": "t_address",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:35"
+          },
+          {
+            "label": "nonce",
+            "offset": 0,
+            "slot": "104",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:55"
+          },
+          {
+            "label": "cardOwner",
+            "offset": 0,
+            "slot": "105",
+            "type": "t_mapping(t_uint256,t_address)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:56"
+          },
+          {
+            "label": "vestOwner",
+            "offset": 0,
+            "slot": "106",
+            "type": "t_mapping(t_uint256,t_address)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:57"
+          },
+          {
+            "label": "vestsByOwner",
+            "offset": 0,
+            "slot": "107",
+            "type": "t_mapping(t_address,t_array(t_uint256)dyn_storage)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:58"
+          },
+          {
+            "label": "unlockedClaimableToken",
+            "offset": 0,
+            "slot": "108",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:59"
+          },
+          {
+            "label": "staked",
+            "offset": 0,
+            "slot": "109",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:60"
+          },
+          {
+            "label": "_isValidSigner",
+            "offset": 0,
+            "slot": "110",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:61"
+          },
+          {
+            "label": "_signedUnlock",
+            "offset": 0,
+            "slot": "111",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:62"
+          },
+          {
+            "label": "signerAdmin",
+            "offset": 0,
+            "slot": "112",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:63"
+          },
+          {
+            "label": "_threshold",
+            "offset": 0,
+            "slot": "113",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:66"
+          },
+          {
+            "label": "signCount",
+            "offset": 0,
+            "slot": "114",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:67"
+          },
+          {
+            "label": "panicUnlock",
+            "offset": 0,
+            "slot": "115",
+            "type": "t_bool",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:68"
+          },
+          {
+            "label": "symbols",
+            "offset": 0,
+            "slot": "116",
+            "type": "t_array(t_uint8)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:69"
+          },
+          {
+            "label": "vestingIndex",
+            "offset": 0,
+            "slot": "117",
+            "type": "t_array(t_struct(Vesting)3691_storage)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:70"
+          },
+          {
+            "label": "cardIndex",
+            "offset": 0,
+            "slot": "118",
+            "type": "t_array(t_struct(Card)3682_storage)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:71"
+          },
+          {
+            "label": "saleIndex",
+            "offset": 0,
+            "slot": "119",
+            "type": "t_array(t_bool)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:72"
+          },
+          {
+            "label": "salePrice",
+            "offset": 0,
+            "slot": "120",
+            "type": "t_array(t_uint256)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:73"
+          },
+          {
+            "label": "blacklisted",
+            "offset": 0,
+            "slot": "121",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:74"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_bool)dyn_storage": {
+            "label": "bool[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(Card)3682_storage)dyn_storage": {
+            "label": "struct VestaCard.Card[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(Vesting)3691_storage)dyn_storage": {
+            "label": "struct VestaCard.Vesting[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint8)dyn_storage": {
+            "label": "uint8[]",
+            "numberOfBytes": "32"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(IERC20Callback)3630": {
+            "label": "contract IERC20Callback",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IVestaRandomizer)3650": {
+            "label": "contract IVestaRandomizer",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_array(t_uint256)dyn_storage)": {
+            "label": "mapping(address => uint256[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Card)3682_storage": {
+            "label": "struct VestaCard.Card",
+            "members": [
+              {
+                "label": "id",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "color",
+                "type": "t_uint8",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "evolution",
+                "type": "t_uint8",
+                "offset": 1,
+                "slot": "1"
+              },
+              {
+                "label": "tier",
+                "type": "t_uint8",
+                "offset": 2,
+                "slot": "1"
+              },
+              {
+                "label": "symbol",
+                "type": "t_uint8",
+                "offset": 3,
+                "slot": "1"
+              },
+              {
+                "label": "cardPower",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "initialPower",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "created",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "banished",
+                "type": "t_bool",
+                "offset": 0,
+                "slot": "5"
+              }
+            ],
+            "numberOfBytes": "192"
+          },
+          "t_struct(Vesting)3691_storage": {
+            "label": "struct VestaCard.Vesting",
+            "members": [
+              {
+                "label": "id",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "start",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "amount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "released",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              }
+            ],
+            "numberOfBytes": "128"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "6d432e0c37f1fac53b7cb4a233a016217a862ec0a7b98d0c5e542f5e1d25dd2b": {
+      "address": "0x63079e0f5CAFB8198554a97Ba0FdaaAd6ecA11CF",
+      "txHash": "0x3b15ac38cd1ddaef07d6a39c87853e8f3abbd2ce37d8572ae4a1db2ff18b7733",
+      "layout": {
+        "solcVersion": "0.8.7",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "randomizer",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_contract(IVestaRandomizer)3650",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:33"
+          },
+          {
+            "label": "vestaToken",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_contract(IERC20Callback)3630",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:34"
+          },
+          {
+            "label": "vestaTokenAddress",
+            "offset": 0,
+            "slot": "103",
+            "type": "t_address",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:35"
+          },
+          {
+            "label": "nonce",
+            "offset": 0,
+            "slot": "104",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:55"
+          },
+          {
+            "label": "cardOwner",
+            "offset": 0,
+            "slot": "105",
+            "type": "t_mapping(t_uint256,t_address)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:56"
+          },
+          {
+            "label": "vestOwner",
+            "offset": 0,
+            "slot": "106",
+            "type": "t_mapping(t_uint256,t_address)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:57"
+          },
+          {
+            "label": "vestsByOwner",
+            "offset": 0,
+            "slot": "107",
+            "type": "t_mapping(t_address,t_array(t_uint256)dyn_storage)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:58"
+          },
+          {
+            "label": "unlockedClaimableToken",
+            "offset": 0,
+            "slot": "108",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:59"
+          },
+          {
+            "label": "staked",
+            "offset": 0,
+            "slot": "109",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:60"
+          },
+          {
+            "label": "_isValidSigner",
+            "offset": 0,
+            "slot": "110",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:61"
+          },
+          {
+            "label": "_signedUnlock",
+            "offset": 0,
+            "slot": "111",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:62"
+          },
+          {
+            "label": "signerAdmin",
+            "offset": 0,
+            "slot": "112",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:63"
+          },
+          {
+            "label": "_threshold",
+            "offset": 0,
+            "slot": "113",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:66"
+          },
+          {
+            "label": "signCount",
+            "offset": 0,
+            "slot": "114",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:67"
+          },
+          {
+            "label": "panicUnlock",
+            "offset": 0,
+            "slot": "115",
+            "type": "t_bool",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:68"
+          },
+          {
+            "label": "symbols",
+            "offset": 0,
+            "slot": "116",
+            "type": "t_array(t_uint8)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:69"
+          },
+          {
+            "label": "vestingIndex",
+            "offset": 0,
+            "slot": "117",
+            "type": "t_array(t_struct(Vesting)3691_storage)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:70"
+          },
+          {
+            "label": "cardIndex",
+            "offset": 0,
+            "slot": "118",
+            "type": "t_array(t_struct(Card)3682_storage)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:71"
+          },
+          {
+            "label": "saleIndex",
+            "offset": 0,
+            "slot": "119",
+            "type": "t_array(t_bool)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:72"
+          },
+          {
+            "label": "salePrice",
+            "offset": 0,
+            "slot": "120",
+            "type": "t_array(t_uint256)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:73"
+          },
+          {
+            "label": "blacklisted",
+            "offset": 0,
+            "slot": "121",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:74"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_bool)dyn_storage": {
+            "label": "bool[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(Card)3682_storage)dyn_storage": {
+            "label": "struct VestaCard.Card[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(Vesting)3691_storage)dyn_storage": {
+            "label": "struct VestaCard.Vesting[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint8)dyn_storage": {
+            "label": "uint8[]",
+            "numberOfBytes": "32"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(IERC20Callback)3630": {
+            "label": "contract IERC20Callback",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IVestaRandomizer)3650": {
+            "label": "contract IVestaRandomizer",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_array(t_uint256)dyn_storage)": {
+            "label": "mapping(address => uint256[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Card)3682_storage": {
+            "label": "struct VestaCard.Card",
+            "members": [
+              {
+                "label": "id",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "color",
+                "type": "t_uint8",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "evolution",
+                "type": "t_uint8",
+                "offset": 1,
+                "slot": "1"
+              },
+              {
+                "label": "tier",
+                "type": "t_uint8",
+                "offset": 2,
+                "slot": "1"
+              },
+              {
+                "label": "symbol",
+                "type": "t_uint8",
+                "offset": 3,
+                "slot": "1"
+              },
+              {
+                "label": "cardPower",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "initialPower",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "created",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "banished",
+                "type": "t_bool",
+                "offset": 0,
+                "slot": "5"
+              }
+            ],
+            "numberOfBytes": "192"
+          },
+          "t_struct(Vesting)3691_storage": {
+            "label": "struct VestaCard.Vesting",
+            "members": [
+              {
+                "label": "id",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "start",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "amount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "released",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              }
+            ],
+            "numberOfBytes": "128"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "5da811a4399b38832007a8ca01fe518531bf3a509e3ea1c5580eee201df38d1c": {
+      "address": "0x32c4eA0d1356F42c13b98f10764089Ab9e08E325",
+      "txHash": "0x9b6073084bebe4081762e81292e5a023625e302b08c0cd6907f12bc780912c46",
+      "layout": {
+        "solcVersion": "0.8.7",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "randomizer",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_contract(IVestaRandomizer)3650",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:33"
+          },
+          {
+            "label": "vestaToken",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_contract(IERC20Callback)3630",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:34"
+          },
+          {
+            "label": "vestaTokenAddress",
+            "offset": 0,
+            "slot": "103",
+            "type": "t_address",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:35"
+          },
+          {
+            "label": "nonce",
+            "offset": 0,
+            "slot": "104",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:55"
+          },
+          {
+            "label": "cardOwner",
+            "offset": 0,
+            "slot": "105",
+            "type": "t_mapping(t_uint256,t_address)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:56"
+          },
+          {
+            "label": "vestOwner",
+            "offset": 0,
+            "slot": "106",
+            "type": "t_mapping(t_uint256,t_address)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:57"
+          },
+          {
+            "label": "vestsByOwner",
+            "offset": 0,
+            "slot": "107",
+            "type": "t_mapping(t_address,t_array(t_uint256)dyn_storage)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:58"
+          },
+          {
+            "label": "unlockedClaimableToken",
+            "offset": 0,
+            "slot": "108",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:59"
+          },
+          {
+            "label": "staked",
+            "offset": 0,
+            "slot": "109",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:60"
+          },
+          {
+            "label": "_isValidSigner",
+            "offset": 0,
+            "slot": "110",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:61"
+          },
+          {
+            "label": "_signedUnlock",
+            "offset": 0,
+            "slot": "111",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:62"
+          },
+          {
+            "label": "signerAdmin",
+            "offset": 0,
+            "slot": "112",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:63"
+          },
+          {
+            "label": "_threshold",
+            "offset": 0,
+            "slot": "113",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:66"
+          },
+          {
+            "label": "signCount",
+            "offset": 0,
+            "slot": "114",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:67"
+          },
+          {
+            "label": "panicUnlock",
+            "offset": 0,
+            "slot": "115",
+            "type": "t_bool",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:68"
+          },
+          {
+            "label": "symbols",
+            "offset": 0,
+            "slot": "116",
+            "type": "t_array(t_uint8)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:69"
+          },
+          {
+            "label": "vestingIndex",
+            "offset": 0,
+            "slot": "117",
+            "type": "t_array(t_struct(Vesting)3691_storage)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:70"
+          },
+          {
+            "label": "cardIndex",
+            "offset": 0,
+            "slot": "118",
+            "type": "t_array(t_struct(Card)3682_storage)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:71"
+          },
+          {
+            "label": "saleIndex",
+            "offset": 0,
+            "slot": "119",
+            "type": "t_array(t_bool)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:72"
+          },
+          {
+            "label": "salePrice",
+            "offset": 0,
+            "slot": "120",
+            "type": "t_array(t_uint256)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:73"
+          },
+          {
+            "label": "blacklisted",
+            "offset": 0,
+            "slot": "121",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:74"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_bool)dyn_storage": {
+            "label": "bool[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(Card)3682_storage)dyn_storage": {
+            "label": "struct VestaCard.Card[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(Vesting)3691_storage)dyn_storage": {
+            "label": "struct VestaCard.Vesting[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint8)dyn_storage": {
+            "label": "uint8[]",
+            "numberOfBytes": "32"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(IERC20Callback)3630": {
+            "label": "contract IERC20Callback",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IVestaRandomizer)3650": {
+            "label": "contract IVestaRandomizer",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_array(t_uint256)dyn_storage)": {
+            "label": "mapping(address => uint256[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Card)3682_storage": {
+            "label": "struct VestaCard.Card",
+            "members": [
+              {
+                "label": "id",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "color",
+                "type": "t_uint8",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "evolution",
+                "type": "t_uint8",
+                "offset": 1,
+                "slot": "1"
+              },
+              {
+                "label": "tier",
+                "type": "t_uint8",
+                "offset": 2,
+                "slot": "1"
+              },
+              {
+                "label": "symbol",
+                "type": "t_uint8",
+                "offset": 3,
+                "slot": "1"
+              },
+              {
+                "label": "cardPower",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "initialPower",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "created",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "banished",
+                "type": "t_bool",
+                "offset": 0,
+                "slot": "5"
+              }
+            ],
+            "numberOfBytes": "192"
+          },
+          "t_struct(Vesting)3691_storage": {
+            "label": "struct VestaCard.Vesting",
+            "members": [
+              {
+                "label": "id",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "start",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "amount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "released",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              }
+            ],
+            "numberOfBytes": "128"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "b1c56ada007d676718320527677e4c4f512ab097a53c7efd2984721575c738ad": {
+      "address": "0xdD1F40C561a8257e1d494A10217B8aad3783199A",
+      "txHash": "0x90294d422812c7a1723ccaf278685829a07f2039165323f3d5ee55d6d227e5da",
+      "layout": {
+        "solcVersion": "0.8.7",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "randomizer",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_contract(IVestaRandomizer)3651",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:34"
+          },
+          {
+            "label": "vestaToken",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_contract(IERC20Upgradeable)954",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:35"
+          },
+          {
+            "label": "vestaTokenAddress",
+            "offset": 0,
+            "slot": "103",
+            "type": "t_address",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:36"
+          },
+          {
+            "label": "nonce",
+            "offset": 0,
+            "slot": "104",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:56"
+          },
+          {
+            "label": "cardOwner",
+            "offset": 0,
+            "slot": "105",
+            "type": "t_mapping(t_uint256,t_address)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:57"
+          },
+          {
+            "label": "vestOwner",
+            "offset": 0,
+            "slot": "106",
+            "type": "t_mapping(t_uint256,t_address)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:58"
+          },
+          {
+            "label": "vestsByOwner",
+            "offset": 0,
+            "slot": "107",
+            "type": "t_mapping(t_address,t_array(t_uint256)dyn_storage)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:59"
+          },
+          {
+            "label": "unlockedClaimableToken",
+            "offset": 0,
+            "slot": "108",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:60"
+          },
+          {
+            "label": "staked",
+            "offset": 0,
+            "slot": "109",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:61"
+          },
+          {
+            "label": "_isValidSigner",
+            "offset": 0,
+            "slot": "110",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:62"
+          },
+          {
+            "label": "_signedUnlock",
+            "offset": 0,
+            "slot": "111",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:63"
+          },
+          {
+            "label": "signerAdmin",
+            "offset": 0,
+            "slot": "112",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:64"
+          },
+          {
+            "label": "_threshold",
+            "offset": 0,
+            "slot": "113",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:67"
+          },
+          {
+            "label": "signCount",
+            "offset": 0,
+            "slot": "114",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:68"
+          },
+          {
+            "label": "panicUnlock",
+            "offset": 0,
+            "slot": "115",
+            "type": "t_bool",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:69"
+          },
+          {
+            "label": "symbols",
+            "offset": 0,
+            "slot": "116",
+            "type": "t_array(t_uint8)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:70"
+          },
+          {
+            "label": "vestingIndex",
+            "offset": 0,
+            "slot": "117",
+            "type": "t_array(t_struct(Vesting)3695_storage)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:71"
+          },
+          {
+            "label": "cardIndex",
+            "offset": 0,
+            "slot": "118",
+            "type": "t_array(t_struct(Card)3686_storage)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:72"
+          },
+          {
+            "label": "saleIndex",
+            "offset": 0,
+            "slot": "119",
+            "type": "t_array(t_bool)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:73"
+          },
+          {
+            "label": "salePrice",
+            "offset": 0,
+            "slot": "120",
+            "type": "t_array(t_uint256)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:74"
+          },
+          {
+            "label": "blacklisted",
+            "offset": 0,
+            "slot": "121",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:75"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_bool)dyn_storage": {
+            "label": "bool[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(Card)3686_storage)dyn_storage": {
+            "label": "struct VestaCard.Card[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(Vesting)3695_storage)dyn_storage": {
+            "label": "struct VestaCard.Vesting[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint8)dyn_storage": {
+            "label": "uint8[]",
+            "numberOfBytes": "32"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(IERC20Upgradeable)954": {
+            "label": "contract IERC20Upgradeable",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IVestaRandomizer)3651": {
+            "label": "contract IVestaRandomizer",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_array(t_uint256)dyn_storage)": {
+            "label": "mapping(address => uint256[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Card)3686_storage": {
+            "label": "struct VestaCard.Card",
+            "members": [
+              {
+                "label": "id",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "color",
+                "type": "t_uint8",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "evolution",
+                "type": "t_uint8",
+                "offset": 1,
+                "slot": "1"
+              },
+              {
+                "label": "tier",
+                "type": "t_uint8",
+                "offset": 2,
+                "slot": "1"
+              },
+              {
+                "label": "symbol",
+                "type": "t_uint8",
+                "offset": 3,
+                "slot": "1"
+              },
+              {
+                "label": "cardPower",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "initialPower",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "created",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "banished",
+                "type": "t_bool",
+                "offset": 0,
+                "slot": "5"
+              }
+            ],
+            "numberOfBytes": "192"
+          },
+          "t_struct(Vesting)3695_storage": {
+            "label": "struct VestaCard.Vesting",
+            "members": [
+              {
+                "label": "id",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "start",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "amount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "released",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              }
+            ],
+            "numberOfBytes": "128"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "3dd344ba3dec03f9de3b097d464b23c784d6ca89f094848f80954b59a8f9853d": {
+      "address": "0x8709380AFb0aF95D1230eCB91F13ED8e0f675078",
+      "txHash": "0x195f68f8dfd376015d3accaccb49c1e08a5d2444c7575657347644a5d601db80",
+      "layout": {
+        "solcVersion": "0.8.7",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "randomizer",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_contract(IVestaRandomizer)3651",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:34"
+          },
+          {
+            "label": "vestaToken",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_contract(IERC20Upgradeable)954",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:35"
+          },
+          {
+            "label": "vestaTokenAddress",
+            "offset": 0,
+            "slot": "103",
+            "type": "t_address",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:36"
+          },
+          {
+            "label": "nonce",
+            "offset": 0,
+            "slot": "104",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:56"
+          },
+          {
+            "label": "cardOwner",
+            "offset": 0,
+            "slot": "105",
+            "type": "t_mapping(t_uint256,t_address)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:57"
+          },
+          {
+            "label": "vestOwner",
+            "offset": 0,
+            "slot": "106",
+            "type": "t_mapping(t_uint256,t_address)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:58"
+          },
+          {
+            "label": "vestsByOwner",
+            "offset": 0,
+            "slot": "107",
+            "type": "t_mapping(t_address,t_array(t_uint256)dyn_storage)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:59"
+          },
+          {
+            "label": "unlockedClaimableToken",
+            "offset": 0,
+            "slot": "108",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:60"
+          },
+          {
+            "label": "staked",
+            "offset": 0,
+            "slot": "109",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:61"
+          },
+          {
+            "label": "_isValidSigner",
+            "offset": 0,
+            "slot": "110",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:62"
+          },
+          {
+            "label": "_signedUnlock",
+            "offset": 0,
+            "slot": "111",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:63"
+          },
+          {
+            "label": "signerAdmin",
+            "offset": 0,
+            "slot": "112",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:64"
+          },
+          {
+            "label": "_threshold",
+            "offset": 0,
+            "slot": "113",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:67"
+          },
+          {
+            "label": "signCount",
+            "offset": 0,
+            "slot": "114",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:68"
+          },
+          {
+            "label": "panicUnlock",
+            "offset": 0,
+            "slot": "115",
+            "type": "t_bool",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:69"
+          },
+          {
+            "label": "symbols",
+            "offset": 0,
+            "slot": "116",
+            "type": "t_array(t_uint8)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:70"
+          },
+          {
+            "label": "vestingIndex",
+            "offset": 0,
+            "slot": "117",
+            "type": "t_array(t_struct(Vesting)3695_storage)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:71"
+          },
+          {
+            "label": "cardIndex",
+            "offset": 0,
+            "slot": "118",
+            "type": "t_array(t_struct(Card)3686_storage)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:72"
+          },
+          {
+            "label": "saleIndex",
+            "offset": 0,
+            "slot": "119",
+            "type": "t_array(t_bool)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:73"
+          },
+          {
+            "label": "salePrice",
+            "offset": 0,
+            "slot": "120",
+            "type": "t_array(t_uint256)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:74"
+          },
+          {
+            "label": "blacklisted",
+            "offset": 0,
+            "slot": "121",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:75"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_bool)dyn_storage": {
+            "label": "bool[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(Card)3686_storage)dyn_storage": {
+            "label": "struct VestaCard.Card[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(Vesting)3695_storage)dyn_storage": {
+            "label": "struct VestaCard.Vesting[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint8)dyn_storage": {
+            "label": "uint8[]",
+            "numberOfBytes": "32"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(IERC20Upgradeable)954": {
+            "label": "contract IERC20Upgradeable",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IVestaRandomizer)3651": {
+            "label": "contract IVestaRandomizer",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_array(t_uint256)dyn_storage)": {
+            "label": "mapping(address => uint256[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Card)3686_storage": {
+            "label": "struct VestaCard.Card",
+            "members": [
+              {
+                "label": "id",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "color",
+                "type": "t_uint8",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "evolution",
+                "type": "t_uint8",
+                "offset": 1,
+                "slot": "1"
+              },
+              {
+                "label": "tier",
+                "type": "t_uint8",
+                "offset": 2,
+                "slot": "1"
+              },
+              {
+                "label": "symbol",
+                "type": "t_uint8",
+                "offset": 3,
+                "slot": "1"
+              },
+              {
+                "label": "cardPower",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "initialPower",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "created",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "banished",
+                "type": "t_bool",
+                "offset": 0,
+                "slot": "5"
+              }
+            ],
+            "numberOfBytes": "192"
+          },
+          "t_struct(Vesting)3695_storage": {
+            "label": "struct VestaCard.Vesting",
+            "members": [
+              {
+                "label": "id",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "start",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "amount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "released",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              }
+            ],
+            "numberOfBytes": "128"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    },
+    "f4bde3641a53aab7c8d61082f1dd34bc958f591052a4c6a4ae84f7ceb79e54c7": {
+      "address": "0x7df7272e71d3cba048dfa43Cc9104B772B59617C",
+      "txHash": "0x4192cc322362c85ac0c763daad05c98ad44f9d4541db5f427e3480887a946dd3",
+      "layout": {
+        "solcVersion": "0.8.7",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "randomizer",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_contract(IVestaRandomizer)3651",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:34"
+          },
+          {
+            "label": "vestaToken",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_contract(IERC20Upgradeable)954",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:35"
+          },
+          {
+            "label": "vestaTokenAddress",
+            "offset": 0,
+            "slot": "103",
+            "type": "t_address",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:36"
+          },
+          {
+            "label": "nonce",
+            "offset": 0,
+            "slot": "104",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:56"
+          },
+          {
+            "label": "cardOwner",
+            "offset": 0,
+            "slot": "105",
+            "type": "t_mapping(t_uint256,t_address)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:57"
+          },
+          {
+            "label": "vestOwner",
+            "offset": 0,
+            "slot": "106",
+            "type": "t_mapping(t_uint256,t_address)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:58"
+          },
+          {
+            "label": "vestsByOwner",
+            "offset": 0,
+            "slot": "107",
+            "type": "t_mapping(t_address,t_array(t_uint256)dyn_storage)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:59"
+          },
+          {
+            "label": "unlockedClaimableToken",
+            "offset": 0,
+            "slot": "108",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:60"
+          },
+          {
+            "label": "staked",
+            "offset": 0,
+            "slot": "109",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:61"
+          },
+          {
+            "label": "_isValidSigner",
+            "offset": 0,
+            "slot": "110",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:62"
+          },
+          {
+            "label": "_signedUnlock",
+            "offset": 0,
+            "slot": "111",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:63"
+          },
+          {
+            "label": "signerAdmin",
+            "offset": 0,
+            "slot": "112",
+            "type": "t_array(t_address)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:64"
+          },
+          {
+            "label": "_threshold",
+            "offset": 0,
+            "slot": "113",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:67"
+          },
+          {
+            "label": "signCount",
+            "offset": 0,
+            "slot": "114",
+            "type": "t_uint256",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:68"
+          },
+          {
+            "label": "panicUnlock",
+            "offset": 0,
+            "slot": "115",
+            "type": "t_bool",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:69"
+          },
+          {
+            "label": "symbols",
+            "offset": 0,
+            "slot": "116",
+            "type": "t_array(t_uint8)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:70"
+          },
+          {
+            "label": "vestingIndex",
+            "offset": 0,
+            "slot": "117",
+            "type": "t_array(t_struct(Vesting)3695_storage)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:71"
+          },
+          {
+            "label": "cardIndex",
+            "offset": 0,
+            "slot": "118",
+            "type": "t_array(t_struct(Card)3686_storage)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:72"
+          },
+          {
+            "label": "saleIndex",
+            "offset": 0,
+            "slot": "119",
+            "type": "t_array(t_bool)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:73"
+          },
+          {
+            "label": "salePrice",
+            "offset": 0,
+            "slot": "120",
+            "type": "t_array(t_uint256)dyn_storage",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:74"
+          },
+          {
+            "label": "blacklisted",
+            "offset": 0,
+            "slot": "121",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "VestaCard",
+            "src": "contracts\\VestaCard.sol:75"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_bool)dyn_storage": {
+            "label": "bool[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(Card)3686_storage)dyn_storage": {
+            "label": "struct VestaCard.Card[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_struct(Vesting)3695_storage)dyn_storage": {
+            "label": "struct VestaCard.Vesting[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_array(t_uint256)dyn_storage": {
+            "label": "uint256[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_uint8)dyn_storage": {
+            "label": "uint8[]",
+            "numberOfBytes": "32"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_contract(IERC20Upgradeable)954": {
+            "label": "contract IERC20Upgradeable",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IVestaRandomizer)3651": {
+            "label": "contract IVestaRandomizer",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_array(t_uint256)dyn_storage)": {
+            "label": "mapping(address => uint256[])",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_address)": {
+            "label": "mapping(uint256 => address)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Card)3686_storage": {
+            "label": "struct VestaCard.Card",
+            "members": [
+              {
+                "label": "id",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "color",
+                "type": "t_uint8",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "evolution",
+                "type": "t_uint8",
+                "offset": 1,
+                "slot": "1"
+              },
+              {
+                "label": "tier",
+                "type": "t_uint8",
+                "offset": 2,
+                "slot": "1"
+              },
+              {
+                "label": "symbol",
+                "type": "t_uint8",
+                "offset": 3,
+                "slot": "1"
+              },
+              {
+                "label": "cardPower",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "initialPower",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "created",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "banished",
+                "type": "t_bool",
+                "offset": 0,
+                "slot": "5"
+              }
+            ],
+            "numberOfBytes": "192"
+          },
+          "t_struct(Vesting)3695_storage": {
+            "label": "struct VestaCard.Vesting",
+            "members": [
+              {
+                "label": "id",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "start",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "amount",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "released",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "3"
+              }
+            ],
+            "numberOfBytes": "128"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    }
+  }
+}
